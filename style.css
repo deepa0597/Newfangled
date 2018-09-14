@@ -1,0 +1,119 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+.navbar
+{
+	background-color: #ba0013;
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+.navbar-brand
+{
+color: #000000;
+min-height: 40px;
+
+}
+.navbar-default .navbar-nav li a {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
+	color: #000000;
+}
+#home{
+	background: url(book.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;  
+}
+.landing-text{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: #000;
+}
+.landing-text h1{
+
+	font-size: 500%;
+	font-weight: 700;
+}
+.padding{
+	padding: 80px 0;
+}
+.padding img
+{
+width: 100%
+}
+.padding h2
+{
+	font-size: 400%;
+	font-weight: 700;
+	text-align: center;
+	color:#ba0013;
+}
+.lead
+{
+text-align: justify;
+}
+
+#fixed 
+{
+	background: url(book.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size:cover;
+}
+footer {
+	width: 100%;
+	background-color: #ba0013;
+	padding: 5% 5% 10% 5%;
+	color: #FFF
+}
+.fa{
+	padding: 15px;
+	font-size: 25px;
+	color: #FFF
+}
+.fa:hover{
+	color: #D5D5D5;
+	text-decoration: none;
+}
+.card{
+	margin: 10px;
+	padding: 10px;
+	border:1pt solid black;
+	border-color: #ba0013;
+
+}
+.collapse{
+	text-align: justify;
+}
+.card h3
+{
+color:#ba0013;
+}
+.card p
+{
+	text-align: justify;
+}
+.card-img-top
+{
+width:200px;
+  height:200px;
+  border-radius:100%;
+  display: block;
+    margin: 0 auto;
+ }
+ .cardmv
+ {
+text-align: justify;
+font-size: 175%;
+ }
+.cardmv h3
+{
+	color:#ba0013;
+}
